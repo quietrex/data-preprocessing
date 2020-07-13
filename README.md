@@ -4,11 +4,13 @@ The rising popularity of social lending has garnered attention from the business
 [Dataset](https://1drv.ms/u/s!AsL_Eh3YhT_QgmukPjClntCwdj96?e=SIpW4u) &nbsp; 
 
 ## Steps involved are:
+```
 1. Data preprocessing - treatement of missing values, detecting outlier and check for normality issues for each of the variables.
 2. Feature Engineering - Discretization of qualititatve values, Merging spare qualitative data.
 3. Discussion - Data exploration, visualization.
+```
 
-# How to use the dataset
+## How to use the dataset
 ```
 This dataset comprised on 3 main portions.
 1. original dataset - dataset/original dataset
@@ -21,5 +23,13 @@ This dataset comprised on 3 main portions.
 
 3. model dataset - dataset/model dataset
 	1. Training, testing and predictors dataset to perform logistic regression model
+```
+
+## How to use the sas file
+```
+1. Data Exploration - To begin explore the loan dataset
+2. DetectOutlier.sas - detecting possible outliers and perform normality checking
+3. TransformationProcedure.sas - Feature Engineering - Discretization of qualititatve values, Merging spare qualitative data.
+4. repeat the steps on training and testing set, and build ml model (tp034717_complex_dap_logisticReg.sas) to check the result performance.
 
 ```
