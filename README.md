@@ -8,3 +8,18 @@ The rising popularity of social lending has garnered attention from the business
 2. Feature Engineering - Discretization of qualititatve values, Merging spare qualitative data.
 3. Discussion - Data exploration, visualization.
 
+# How to use the dataset
+```
+This dataset comprised on 3 main portions.
+1. original dataset - dataset/original dataset
+	1. LoanStats3a-Upd - selected column for doing preprocessing, outlier detection and transformation
+
+2. pre-processed dataset - dataset/pre-processed dataset - that has been categoried as numerical and categorical datasets
+	1. A56_TRANSQUALITATIVE   -  qualitative data after transformed.
+	2. A55_TRANSQUANTITATIVE  - quantitative data after transformed.
+	3. A44_TRANS(Transformed Dataset) - both qualitative data after transformed.
+
+3. model dataset - dataset/model dataset
+	1. Training, testing and predictors dataset to perform logistic regression model
+
+```
